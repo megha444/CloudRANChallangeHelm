@@ -23,6 +23,7 @@ helm install hello-chart . --set service.type=NodePort
 ```
 
 Then the received IP was run on the browser, which gave the following output:
+
 <img width="357" alt="Screenshot 2023-03-15 at 11 38 16 PM" src="https://user-images.githubusercontent.com/64781077/225510745-98bd0872-61bd-4964-ba0e-e4131bc54b11.png">
 
 Finally, this was packaged using '''helm package hello-chart''', resulting in a .tgz file
