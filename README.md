@@ -3,9 +3,9 @@
 This repo contains the files used to create a helm chart.
 To create this, a directory titled 'hello-chart' was created.
 Inside this, a helm chart was created using:
-'''
+```
 helm create hello-chart
-'''
+```
 
 Next, the values.yaml file was edited to use the specified docker image at image.repo and image.tag positions
 
